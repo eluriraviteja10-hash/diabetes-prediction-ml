@@ -1,76 +1,84 @@
-🍁 Diabetes Prediction using Machine Learning
+# 🍁 Diabetes Prediction using Machine Learning
 
-This is a healthcare-focused Machine Learning project that predicts whether a patient is diabetic based on clinical features such as glucose level, BMI, insulin, blood pressure, and age.
+This is a healthcare-focused Machine Learning project that predicts whether a patient is diabetic based on clinical features such as **glucose level, BMI, insulin, blood pressure, and age**.
 
-📌 Project Overview
+---
+
+## 📌 Project Overview
 
 This project demonstrates a complete end-to-end ML pipeline:
 
-📥 Data loading
+- 📥 Data loading  
+- 🧼 Data cleaning (handling invalid medical values)  
+- 🔍 Exploratory Data Analysis  
+- 📊 Feature scaling  
+- ✂️ Train-test split  
+- 🧪 Logistic Regression  
+- 🌲 Random Forest (tuned)  
+- 📉 Confusion matrix + classification report  
 
-🧼 Data cleaning (handling invalid medical values)
+---
 
-🔍 Exploratory Data Analysis
+## 🗂️ Dataset
 
-📊 Feature scaling
-
-✂️ Train-test split
-
-🧪 Logistic Regression
-
-🌲 Random Forest (tuned)
-
-📉 Confusion matrix + classification report
-
-🗂️ Dataset
-
-Public diabetes dataset (PIMA Indians Diabetes Database):
+Public diabetes dataset (PIMA Indians Diabetes Database):  
 👉 https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv
 
-🛠 Technologies Used
+---
 
-Python
+## 🛠 Technologies Used
 
-Pandas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-Learn  
+- Google Colab  
 
-NumPy
+---
 
-Matplotlib
+## 📈 Model Performance
 
-Seaborn
+- **Logistic Regression:** ~75% accuracy  
+- **Random Forest (tuned):** ~75–78% accuracy  
 
-Scikit-Learn
+---
 
-Google Colab
+## 🔬 Key Insights
 
-📈 Model Performance
+- **Glucose** is the strongest predictor of diabetes  
+- **BMI** and **Age** show moderate correlation with diabetes  
+- Healthcare ML prioritizes **recall** to reduce false negatives  
+- Simpler models can outperform complex models on smaller clinical datasets  
 
-Logistic Regression: ~75% accuracy
+---
 
-Random Forest (tuned): ~75–78% accuracy
+## 🩺 Healthcare Relevance
 
-🔬 Key Insights
+This model helps identify **high-risk diabetic patients** early, enabling preventive care, timely diagnosis, and early intervention.
 
-Glucose is the strongest predictor
+---
 
-BMI and Age have moderate correlation
+## 📁 Repository Contents
 
-Healthcare ML focuses more on recall and false negatives
+- `Diabetes_Prediction_Project.ipynb` — Full Google Colab notebook  
+- `README.md` — Project documentation  
 
-A simple model (Logistic Regression) works surprisingly well
+---
 
-🩺 Healthcare Relevance
+## 🚀 How to Run the Project
 
-This model helps identify high-risk diabetes patients early, enabling:
+1. Download or open the notebook in Google Colab  
+2. Install dependencies (Colab already has them)  
+3. Run all cells from top to bottom  
+4. View the accuracy, confusion matrix, and model metrics  
 
-early intervention
+---
 
-diet/lifestyle recommendations
+## 👨‍💻 Author
 
-preventive health check-ups
+**Eluri Raviteja**
 
-📁 Files in this Repository
+---
 
-Diabetes_Prediction_Project.ipynb — Full Colab notebook
-
-README.md — Project documentation
